@@ -2,9 +2,9 @@
 
 A mobile app built with **React Native + Expo + Typescript**
 
-<img width="1179" height="2556" alt="one" src="https://github.com/user-attachments/assets/d6515b25-034f-4edb-a34f-a037cab9cd46" />
-<img width="1179" height="2556" alt="two" src="https://github.com/user-attachments/assets/fa3556b5-78f9-4058-a5df-c8941faa2bb5" />
-<img width="1179" height="2556" alt="three" src="https://github.com/user-attachments/assets/2b874a47-5468-4536-b3a3-cb1514c593ec" />
+<img width="294.75" height="643.5" alt="one" src="https://github.com/user-attachments/assets/d6515b25-034f-4edb-a34f-a037cab9cd46" />
+<img width="294.75" height="643.5" alt="two" src="https://github.com/user-attachments/assets/fa3556b5-78f9-4058-a5df-c8941faa2bb5" />
+<img width="294.75" height="643.5" alt="three" src="https://github.com/user-attachments/assets/2b874a47-5468-4536-b3a3-cb1514c593ec" />
 
 
 ---
