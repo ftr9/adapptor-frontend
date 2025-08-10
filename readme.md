@@ -2,6 +2,20 @@
 
 A mobile app built with **React Native + Expo + Typescript**
 
+<img width="1179" height="2556" alt="one" src="https://github.com/user-attachments/assets/d6515b25-034f-4edb-a34f-a037cab9cd46" />
+<img width="1179" height="2556" alt="two" src="https://github.com/user-attachments/assets/fa3556b5-78f9-4058-a5df-c8941faa2bb5" />
+<img width="1179" height="2556" alt="three" src="https://github.com/user-attachments/assets/2b874a47-5468-4536-b3a3-cb1514c593ec" />
+
+
+---
+
+## Features
+
+- Opens to a home screen with bottom tab bar navigation
+- Fetches a welcome message from the server on launch
+- Displays the welcome message
+- Shows a button that posts to the server /action endpoint
+
 ## Tech Stack
 
 - Typescript
@@ -19,26 +33,31 @@ A mobile app built with **React Native + Expo + Typescript**
 git clone https://github.com/ftr9/adapptor-frontend.git
 ```
 
-2. go inside the cloned repo directory
+2. To navigate into the cloned repository directory, use the following command in your terminal:
 
 ```
 cd adapptor-frontend
 ```
 
-3. Install dependencies:
+3. Before running the project, make sure the [backend](https://github.com/ftr9/adapptor-backend/tree/main) is running and create a `.env` in the root folder with the following content:
+
+```
+EXPO_PUBLIC_API_URL=http://localhost:3000/api/v1
+```
+
+4. Install dependencies:
 
 ```bash
 npm install
 ```
 
-2. Start the app:
+5. Start the app:
 
 ```bash
-npx expo run:ios # if ios simulator
-npx expo run:android # if android simulator
+npx expo start
 ```
 
-3. open the app
+6. open the app
 
 ```bash
 press i on the terminal # to open app on ios simulator
