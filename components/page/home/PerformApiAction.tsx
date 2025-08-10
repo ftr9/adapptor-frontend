@@ -41,6 +41,7 @@ export const PerformApiAction = () => {
   return (
     <View style={{ width: "50%", marginTop: 10 }}>
       <Button
+        testID="performActionBtn"
         loading={loading}
         onPress={sendPayloadToServer}
         title="Perform Api Action"

@@ -23,7 +23,11 @@ export const Button = ({ title, loading = false, ...props }: IButtonProps) => {
       {...props}
     >
       {loading ? (
-        <ActivityIndicator size={17} color={"white"} />
+        <ActivityIndicator
+          testID="activity-indicator"
+          size={17}
+          color={"white"}
+        />
       ) : (
         <Text style={styles.btnText}>{title}</Text>
       )}
