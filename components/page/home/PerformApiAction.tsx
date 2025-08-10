@@ -16,7 +16,8 @@ export const PerformApiAction = () => {
 
       showToastMessage({
         type: "success",
-        text1: "Successfully proccessed json body",
+        text1: "success",
+        text2: "Successfully proccessed json body",
       });
     } catch (err) {
       if (err instanceof AxiosError) {
