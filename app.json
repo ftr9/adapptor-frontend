@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "sample-stuff-navigation",
-    "slug": "sample-stuff-navigation",
+    "name": "adapptor-frontend",
+    "slug": "adapptor-frontend",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,14 +15,15 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.luhardotel.sample-stuff-navigation"
+      "bundleIdentifier": "com.luhardotel.adapptor-frontend"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.luhardotel.adapptorfrontend"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "cbcd445e-55ad-4482-92ef-1cc986feac33"
+      }
     }
   }
 }
