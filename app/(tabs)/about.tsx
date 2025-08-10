@@ -1,5 +1,5 @@
 import { StyleSheet, View } from "react-native";
-import { Text } from "@/components";
+import { Text } from "@/components/core";
 
 export default function TabTwoScreen() {
   return (

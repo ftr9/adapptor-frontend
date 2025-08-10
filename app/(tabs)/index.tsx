@@ -1,23 +1,12 @@
-import { useRouter } from "expo-router";
 import { StyleSheet, View } from "react-native";
-import { Button } from "@/components";
-import { useState } from "react";
-import Text from "@/components/Text";
+import { PerformApiAction } from "@/components/page/home";
+import { WelcomeMessage } from "@/components/page/home/WelcomeMessage";
 
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-      <Text type="primary" style={styles.title}>
-        Welcome to the app
-      </Text>
-      <View style={{ width: "50%", marginTop: 10 }}>
-        <Button
-          title="Perform Api Action"
-          onPress={() => {
-            alert("Hello World");
-          }}
-        />
-      </View>
+      <WelcomeMessage />
+      <PerformApiAction />
     </View>
   );
 }
@@ -28,8 +17,5 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     paddingHorizontal: 20,
-  },
-  title: {
-    textAlign: "center",
   },
 });
